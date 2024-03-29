@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_CIsamples_pythonApp_1711727539134-pr-trigger-input-set
+  identifier: Build_CIsamples_pythonApp_1711727539134prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Nofar
+  pipeline:
+    identifier: Build_CIsamples_pythonApp_1711727539134
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
